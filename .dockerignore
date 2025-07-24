@@ -1,0 +1,106 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+debug.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# VS Code
+.vscode/
+
+# Docker
+Dockerfile*
+docker-compose*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+myvenv/
+venv/
+ENV/
+.env
+
+# Data, images, and other large files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.csv
+*.tsv
+*.json
+*.pdf
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.h5
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.weights
+*.npz
+*.npy
+
+# Git
+.git/
+.gitignore

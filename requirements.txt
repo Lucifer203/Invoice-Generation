@@ -1,0 +1,33 @@
+##################### CPU only requirements #####################
+datasets
+pillow
+huggingface_hub
+python-dotenv
+git+https://github.com/huggingface/transformers
+accelerate
+qwen-vl-utils[decord]==0.0.8
+torch
+torchvision
+gradio
+streamlit
+######################### CPU only requirements #########################
+
+
+
+##################### GPU requirements ############################
+
+# datasets
+# pillow
+# huggingface_hub
+# python-dotenv
+# git+https://github.com/huggingface/transformers
+# accelerate
+# qwen-vl-utils[decord]==0.0.8
+# torch --index-url https://download.pytorch.org/whl/cu121
+# torchvision --index-url https://download.pytorch.org/whl/cu121
+# # bitsandbytes==0.46.1 --no-deps
+# gradio
+# streamlit
+
+
+######################### GPU requirements #########################

@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  invoice-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: invoice-app
+    ports:
+      - "8051:8051"
+    env_file:
+      - .env
+    volumes:
+      - .:/app   
+    command: streamlit run main.py --server.port=8051 --server.address=0.0.0.0

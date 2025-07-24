@@ -1,0 +1,6 @@
+*.gradio/
+myvenv/
+*.env
+*.ipynb_checkpoints/
+__pycache__/
+inference/
