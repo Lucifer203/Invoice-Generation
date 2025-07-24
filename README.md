@@ -19,8 +19,8 @@ This project addresses the challenge of automatically extracting structured data
 
 ### 1. Clone the Repository
 ```bash
-git clone git@gitlab.com:tech-manthan-nepal/document-extraction.git
-cd app/invoice/adarsh-nhujaw-project/
+git clone git@github.com:Lucifer203/Invoice-Generation.git
+cd Invoice-Generation
 ```
 
 ### 2. Create a `.env` File
